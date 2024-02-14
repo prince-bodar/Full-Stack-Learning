@@ -1,5 +1,7 @@
-
+/* /* 
 /* web 1 page */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .header-1 {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -29,6 +31,7 @@
 .main-head a {
   color: black;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 .main-head {
   background-color: #ccc;
@@ -37,9 +40,12 @@
 }
 .main-head dl {
   padding-top: 10px;
-  padding-left: 200px;
+  padding-left: 100px;
   display: flex;
-  gap: 80px;
+  gap: 60px;
+}
+.icons-head i{
+   margin-left: 30px;
 }
 /* after line of nav bar */
 
@@ -52,14 +58,14 @@
   align-items: center;
 }
 .main-img {
-  height: 550px;
-  width: 1300px;
+  height: 100%;
+  width: 100%;
   background-image: url("../asset/img/asset 5.jpeg");
   background-size: cover;
 }
 .main-img .in-img .p1 {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 200px;
   font-size: 2rem;
 }
 .main-img .in-img .p2 {
@@ -75,7 +81,7 @@
 
 .offers-vegitables{
   display: flex;
-  padding:100px 50px 0px 50px;
+  padding:20px 50px 0px 50px;
 }
 .offers-vegitables .offer-vegtable-img-1{
   background-image: url("../asset/img/asset\ 11.jpeg");
@@ -113,7 +119,7 @@
 .shop-category {
   margin-top: 100px;
   display: flex;
-  gap: 50px;
+  gap: 40px;
   padding-left: 18px;
   box-sizing: border-box;
 }
@@ -223,4 +229,5 @@
 .our-products .fleximg2 figcaption{
   margin-left: 60px;
   margin-top: 15px;
-}
+ }  
+ 
