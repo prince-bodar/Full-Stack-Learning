@@ -71,15 +71,20 @@ body{
     color: #fff;
     display: flex;
     justify-content: center;
-    columns: 3;
-    column-gap:150px;
     text-align: justify;
     font-size: large;
+ }
+ .web-short-datails div{
+    width: 350px;
+    margin-left: 10px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
  }
  .icon{
     font-size: 48px;
     padding-top: 20px;
  }
+ 
 /*  hosting video */
 
 .hosting-video{
