@@ -34,11 +34,12 @@
     position: absolute;
     left: 450px;
     top: 250px;
+    z-index: -10;
     animation: move4 8s  0.001ms infinite linear;
 }
 @keyframes move4 {
     from{
-        transform: translateY(0px);
+        transform: translateY(120px);
     }
     to{
         transform: translateY(-500px);
