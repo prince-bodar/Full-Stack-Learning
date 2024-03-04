@@ -1,0 +1,11 @@
+@media (min-width:320px){
+    body{
+        overflow: hidden;
+    }
+    .navbar .navlink{
+        display: none;
+    }
+    .banner{
+        display: block;
+    }
+}
