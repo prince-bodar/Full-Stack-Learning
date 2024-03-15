@@ -1,0 +1,14 @@
+body {
+  background-color: #ccc;
+}
+body .main {
+  height: 70vh;
+  width: 99vw;
+  border: 2px solid black;
+  display: grid;
+  place-items: center;
+}
+body .main .head-text {
+  font-size: 2vw;
+  font-weight: 800;
+}/*# sourceMappingURL=main.css.map */
