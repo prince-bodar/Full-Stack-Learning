@@ -1,4 +1,4 @@
-let p = 14;
+let p = 18;
 if(p>=18)
 {
     console.log("you are eligible for vote");

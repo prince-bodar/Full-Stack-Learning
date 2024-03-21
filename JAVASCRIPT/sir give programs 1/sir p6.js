@@ -1,9 +1,9 @@
 {
     let per , total , grade , marks , maths , science , english ;
 
-  maths = 50 ; 
-  science = 87 ; 
-  english = 90 ;
+  maths = 50; 
+  science = 87; 
+  english = 90;
   total = maths + science + english ;
   per = total / 300 *100;
 
