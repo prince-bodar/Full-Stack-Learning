@@ -6,7 +6,6 @@ body{
     color: white;
     box-sizing: border-box ;
     
-    
 }
 header{
         background-image: url('../img/asset\ 22.svg');
@@ -160,11 +159,27 @@ nav{
 }
 
 
+.section-4{
+    margin:calc(1vw + 3px);
+     .flex-1{
+        margin-left: 20px;
+        margin-right: 10px;
+     }
+     .flex-2{
+        margin-left: 20px;
+        margin-right: 20px;
+         h1{
+             font-size: calc(2vw + 13px);
+            }
+     
+         }    p{
+            font-size: calc(1vw + 9px);
+        }
+}
 
 
 
-
-
+ 
 
 
 
