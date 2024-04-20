@@ -141,7 +141,6 @@ nav{
       
 .section-3{
      .main-flex{
-
          .child-flex-1{
             h1{font-size: calc(2vw + 8px);}
             p{font-size: calc(1vw + 7px);}
@@ -177,6 +176,43 @@ nav{
         }
 }
 
+.section-5{
+    background-color:#080f3d;
+    background-image: url('../img/asset\ 38.svg');
+    background-repeat: repeat-y;
+    margin-top: 20px;
+    h1{
+        text-align: center;
+        font-size: calc(3vw + 4px);   
+        padding-top: 50px;
+    }
+    .div  p{
+    text-align: center;
+    font-size: calc(1vw + 10px);   
+        padding-top: 30px;
+    }
+    .flex{
+        .temp1{
+            padding:10px;
+            background:#706f6f64;
+            max-width: 310px;
+            .span{
+                color: yellow;
+            }
+            .img{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 150%;
+                    box-shadow:50%;
+                    
+                }
+            }
+        }
+        
+    }
+
+}
 
 
  
