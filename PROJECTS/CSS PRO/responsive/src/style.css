@@ -186,13 +186,17 @@ nav{
         font-size: calc(3vw + 4px);   
         padding-top: 50px;
     }
-    .div  p{
-    text-align: center;
-    font-size: calc(1vw + 10px);   
-        padding-top: 30px;
-    }
     .flex{
+        .div{
+          display: flex;
+          flex-wrap:wrap;
+          justify-content: center;
+        
+        }
         .temp1{
+            margin-top: 20px;
+            margin-right: 30px;
+            margin-left: 30px;
             padding:10px;
             background:#706f6f64;
             max-width: 310px;
@@ -203,9 +207,13 @@ nav{
                 display: flex;
                 align-items: center;
                 img{
-                    width: 150%;
-                    box-shadow:50%;
-                    
+                    margin-right: 50px;
+                    width: 110%;
+                    /* box-shadow:50%; */
+                }
+                .para{
+                    margin-bottom: 50px;
+                    margin-left: 20px;
                 }
             }
         }
