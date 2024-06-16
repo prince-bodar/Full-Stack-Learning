@@ -1,0 +1,10 @@
+.pop{
+    display: none;
+}
+
+.box:hover{
+    .pop{
+        display: block;
+
+    }
+}
