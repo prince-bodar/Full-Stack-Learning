@@ -7,13 +7,14 @@ import { LuWalletCards } from "react-icons/lu";
 import { IoMenu } from "react-icons/io5";
 
 
+    const Navbar = () => {
 
-const Navbar = () => {
+    
     return (
         <div>
             <h1 className='hidden md:block text-white text-center font-semibold bg-[#586946] p-2 text-md tracking-wide'>Free delivery on orders over $1499. Don’t miss discount.</h1>
             <div className='flex justify-between items-center p-5 border-2 '>
-                <p className='md:hidden text-2xl'><IoMenu /></p>
+                <p className='md:hidden  text-2xl'><IoMenu /></p>
                 <img className='h-10 w-32 sm:w-42' src="https://emart.wpthemedemos.com/fashion-hub/wp-content/uploads/sites/4/2022/12/emart-011.webp" alt="" />
                 <div>
                     <nav>
@@ -22,10 +23,10 @@ const Navbar = () => {
                                 <Link className='text-lg font-semibold hover:text-black hover:underline' to="/" >Demo</Link>
                             </li>
                             <li>
-                                <Link className='text-lg font-semibold hover:text-black hover:underline' >Product</Link>
+                                <Link className='text-lg font-semibold hover:text-black hover:underline' to="/product" >Product</Link>
                             </li>
                             <li>
-                                <Link className='text-lg font-semibold hover:text-black hover:underline' >Shop</Link>
+                                <Link className='text-lg font-semibold hover:text-black hover:underline' to="/Shop" >Shop</Link>
                             </li>
                             <li>
                                 <Link className='text-lg font-semibold hover:text-black hover:underline' >Blog</Link>
@@ -38,7 +39,7 @@ const Navbar = () => {
                 </div>
                 <div className='flex items-center'>
                     <CiSearch className='hidden sm:block  size-6  mx-2' />
-                    <FiUser className='size-6  mx-2' />
+                    <Link to="/Signin"><FiUser className='size-6  mx-2' /> </Link>
                     <CiHeart className='hidden md:block  size-6  mx-2' />
                     <LuWalletCards className='size-6 mx-2' />
                 </div>

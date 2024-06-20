@@ -6,6 +6,7 @@ import { PiCurrencyDollarLight } from "react-icons/pi";
 import { FiShoppingCart } from "react-icons/fi";
 import { CiHeadphones } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const Homepage = () => {
     return (
@@ -17,7 +18,7 @@ const Homepage = () => {
                         Summer essential stock
                     </h1>
                     <button className="border-2 hover:-translate-y-3 hover:duration-700 border-neutral-700 py-3 px-7 text-bold hover:bg-black hover:text-white mt-7">
-                        Shop Now
+                       <Link to="/Shop" >Shop Now</Link>
                     </button>
                 </div>
                 <div>
