@@ -1,7 +1,0 @@
-1 -> website
-2 -> internet
-3 -> static and daynamic ip
-4 -> client and server  
-5 -> peer 
-6 -> protocol
-7 -> port
