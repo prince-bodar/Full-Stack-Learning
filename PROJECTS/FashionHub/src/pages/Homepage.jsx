@@ -6,7 +6,7 @@ import { PiCurrencyDollarLight } from "react-icons/pi";
 import { FiShoppingCart } from "react-icons/fi";
 import { CiHeadphones } from "react-icons/ci";
 import { Link } from 'react-router-dom';
-import footerOne from '../Components/footerOne';
+import FooterOne from '../Components/footerOne';
 
 const Homepage = () => {
     return (
@@ -67,7 +67,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-            <footerOne/>
+            <FooterOne/>
         </div>
     )
 }

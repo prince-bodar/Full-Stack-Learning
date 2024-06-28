@@ -1,4 +1,5 @@
 import React from 'react'
+import { FiShoppingBag } from "react-icons/fi"
 import { Link } from 'react-router-dom'
 import { CiSearch } from "react-icons/ci";
 import { FiUser } from "react-icons/fi";
@@ -42,7 +43,7 @@ import { Navigate } from 'react-router-dom';
                     <CiSearch className='hidden sm:block  size-6  mx-2' />
                     <Link to="/Signin"><FiUser className='size-6  mx-2' /> </Link>
                     <CiHeart className='hidden md:block  size-6  mx-2' />
-                    <Link to='/Cart'> <FiShoppingCart className='size-6 mx-2' /></Link> 
+                    <Link to='/Cart'> <FiShoppingBag className='size-6 mx-2' /></Link> 
                 </div>
             </div>
         </div>

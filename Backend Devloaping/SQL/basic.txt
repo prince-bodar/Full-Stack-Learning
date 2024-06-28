@@ -6,7 +6,7 @@
 6  -> drop database                                                                           => this command use for deleting your database
 7  -> create table user(firstname varchar(30) ,lastname(30),age int);                         => this command use for creating table 
 8  -> show tables;                                                                            => this command use for showing all table in our database
-9  -> desc user; OR describe user                                                             => this command use for user table showing
+9  -> desc user; OR describe user;                                                            => this command use for user table showing
 10 ->                                                                                         =>
 11 ->                                                                                         =>
 12 ->                                                                                         =>

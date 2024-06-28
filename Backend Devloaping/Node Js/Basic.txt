@@ -5,3 +5,19 @@
 5 -> peer 
 6 -> protocol
 7 -> port
+
+
+
+main topics of backend devloaping
+
+* SQL
+1 => primery key and foregin key
+2 => SQL join  =>  4 types all are importants
+3 => Group by
+4 => Union
+
+* Mongo DB
+1 => Aggregation
+2 => Index Search
+3 => Queary Selector 
+
